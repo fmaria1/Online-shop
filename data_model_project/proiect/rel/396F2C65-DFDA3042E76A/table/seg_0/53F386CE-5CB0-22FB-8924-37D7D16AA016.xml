@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53F386CE-5CB0-22FB-8924-37D7D16AA016" name="products">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<generatorID>1244F5CE-1E1C-B440-D1F0-32331484CD9B</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="prod_id" id="A3BB3484-8D01-0EE4-C920-C8719E7C7670">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<generatorID>819E01E7-E2F4-1057-F356-7EFDA2FF7808</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prod_title" id="3F2599E8-C975-5596-90B5-152BEF0194F9">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<generatorID>9B1AE383-FAB3-B534-02CA-9BFB5A72171E</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prod_image" id="BF28ED6A-F334-5975-E447-3EA33644C516">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<generatorID>FB66C2B3-07C6-CDB4-6E5D-2D5481135BF6</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prod_price" id="2954C492-09ED-456E-BC13-C91E01976C2B">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<generatorID>9D6CE154-D42D-4986-BCA2-16A9DA688AE3</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<constraintName>prod_price_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="prod_price &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prod_keywords" id="DD627056-AA0D-359A-E906-5B83A0EC4B33">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<generatorID>E01CBFBB-53E5-048F-B0C4-9AC4DC39A410</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fabrication_date" id="15CEC1E4-F674-BB32-020F-E0149B37961D">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<generatorID>AD29B3C4-F968-E8CF-D215-BB59B30472A6</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="expiration_date" id="49AE0EFC-97EF-DEE5-8C86-7D25FA16BB3C">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<generatorID>00A65015-AB33-6171-422F-F29FE2693DD5</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categories_cat_id" id="FE828DB6-7DF2-7009-9A3C-989AC4EE6C95">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<generatorID>61ED73F0-C187-3D98-D68C-02BC455080DF</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15116364-8EA1-2E28-46A9-1F6AAAEE9F3E" referredColumn="5B8AD7AD-31D2-E5C3-C3F9-1BF5B9FAAF87"/>
+</associations>
+</Column>
+<Column name="describtion_desc_id" id="FF2035F7-CC4A-5303-EBCB-AD1791002FAE">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<generatorID>759CE997-0396-E990-1A2F-CA0A2BAF745F</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F4A70E1-BFD9-F310-EED7-DCFB7F7A6CF5" referredColumn="FB54D9E6-0E93-AB9D-7E05-26861C8B39A3"/>
+</associations>
+</Column>
+<Column name="stoc" id="6E5F5CD7-47E2-5F74-FB25-7CBAED56A138">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<generatorID>6EADFDD0-69D7-C756-8492-1E0A6132938E</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<constraintName>stoc_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="stoc &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A19DF927-F487-5465-249B-DA356350A827" name="products_PK">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<generatorID>5A0428E1-ABA9-B512-852C-5AA7FB7459B2</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3BB3484-8D01-0EE4-C920-C8719E7C7670"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6E0C0E6-803F-6596-7352-4947E189FCB4" name="products__IDX">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>AD35A27D-B0AE-BC6B-7C83-A14242F4A05A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FF2035F7-CC4A-5303-EBCB-AD1791002FAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6F5EF53-0665-1CF3-BAF7-1B8FABA5AD9C" name="products_describtion_FK">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<generatorID>AD35A27D-B0AE-BC6B-7C83-A14242F4A05A</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF2035F7-CC4A-5303-EBCB-AD1791002FAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0101F36A-8F5E-5C89-086D-B30E4FDAF897" name="products_categories_FK">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<generatorID>4BC14AED-C726-B59F-EF46-28D57A1A0471</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE828DB6-7DF2-7009-9A3C-989AC4EE6C95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

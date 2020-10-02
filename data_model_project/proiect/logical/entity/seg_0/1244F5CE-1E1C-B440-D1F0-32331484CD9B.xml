@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1244F5CE-1E1C-B440-D1F0-32331484CD9B" name="products">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-04 08:59:19 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="396F2C65-020E-805E-B5CE-DFDA3042E76A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="prod_id" id="819E01E7-E2F4-1057-F356-7EFDA2FF7808">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-04 09:10:39 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="396F2C65-020E-805E-B5CE-DFDA3042E76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prod_title" id="9B1AE383-FAB3-B534-02CA-9BFB5A72171E">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-04 09:11:10 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="396F2C65-020E-805E-B5CE-DFDA3042E76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prod_image" id="FB66C2B3-07C6-CDB4-6E5D-2D5481135BF6">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-04 09:11:35 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="396F2C65-020E-805E-B5CE-DFDA3042E76A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prod_price" id="9D6CE154-D42D-4986-BCA2-16A9DA688AE3">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-04 09:11:54 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="396F2C65-020E-805E-B5CE-DFDA3042E76A" value="true"/>
+</engineerTo>
+<constraintName>prod_price_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="prod_price &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prod_keywords" id="E01CBFBB-53E5-048F-B0C4-9AC4DC39A410">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-04 09:12:26 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="396F2C65-020E-805E-B5CE-DFDA3042E76A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fabrication_date" id="AD29B3C4-F968-E8CF-D215-BB59B30472A6">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-04 09:14:25 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="396F2C65-020E-805E-B5CE-DFDA3042E76A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="expiration_date" id="00A65015-AB33-6171-422F-F29FE2693DD5">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-04 09:16:36 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="396F2C65-020E-805E-B5CE-DFDA3042E76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cat_id" id="61ED73F0-C187-3D98-D68C-02BC455080DF">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-04 09:21:29 UTC</createdTime>
+<generatorID>4BC14AED-C726-B59F-EF46-28D57A1A0471</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="396F2C65-020E-805E-B5CE-DFDA3042E76A" value="true"/>
+</engineerTo>
+<referedAttribute>F4EA7B46-D182-7B71-8131-8AF73B29A2D2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desc_id" id="759CE997-0396-E990-1A2F-CA0A2BAF745F">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-04 09:22:06 UTC</createdTime>
+<generatorID>AD35A27D-B0AE-BC6B-7C83-A14242F4A05A</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="396F2C65-020E-805E-B5CE-DFDA3042E76A" value="true"/>
+</engineerTo>
+<referedAttribute>9EB4509A-B4C9-621B-4FC0-76C6361E3BF0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stoc" id="6EADFDD0-69D7-C756-8492-1E0A6132938E">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:11:51 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="396F2C65-020E-805E-B5CE-DFDA3042E76A" value="true"/>
+</engineerTo>
+<constraintName>stoc_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="stoc &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5A0428E1-ABA9-B512-852C-5AA7FB7459B2" name="products PK">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-04 09:11:07 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<engineerTo>
+<item key="396F2C65-020E-805E-B5CE-DFDA3042E76A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>819E01E7-E2F4-1057-F356-7EFDA2FF7808</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

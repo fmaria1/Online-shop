@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="prod_id_FKv1" directorySegmentName="seg_0" id="1F291804-9B5A-6C6F-82EB-08875F7E2387">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="products_prod_id" id="54C42E04-E9C6-CF8E-A604-BFB3EDA4EE1D">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="orders_order_id" id="5BB3AF8D-4055-1A9E-96ED-8CFCA778C899">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="prod_id_FKv1_orders_FK" id="484284FD-1D91-3EDD-A461-8BBAFED17BBF">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="prod_id_FKv1_products_FK" id="B2795B76-4420-25B6-8971-1FC2D0DBB774">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="prod_id_FKv1_PK" id="AA2C8546-0408-84C6-6B05-F7EAE2A73204">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

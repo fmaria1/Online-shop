@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Trg_prod_BR" directorySegmentName="seg_0" id="DAF3724A-0A3A-9A60-EC8F-4A01AE903E0A">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:26:38 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[BEGIN
+	IF ( :new.expiration_date <= SYSDATE )
+	THEN
+	 RAISE_APPLICATION_ERROR( -20001,
+	 	'Data de expirare: ' || TO_CHAR( :new.expiration_date, 'DD.MM.YYYY HH24:MI:SS' ) || ' trebuie sa fie cel putin cu 3 zile zile mai mare decat data curenta ');
+	 END IF;
+END;
+	 	]]></body>
+<triggerTime>BEFORE</triggerTime>
+<table>5C084CF9-8355-F06D-84AA-E0412E9EF918</table>
+</TriggerOraclev10g>

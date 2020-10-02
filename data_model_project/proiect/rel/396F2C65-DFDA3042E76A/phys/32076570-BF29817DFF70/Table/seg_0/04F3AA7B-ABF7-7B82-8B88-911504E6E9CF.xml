@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="orders" directorySegmentName="seg_0" id="04F3AA7B-ABF7-7B82-8B88-911504E6E9CF">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="user_info_user_id" id="190A2C33-D026-F8AA-38BE-BBD606F4064C">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="order_id" id="5B02D5B0-34E2-FD63-1C95-6035D1533AE3">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="qty" id="9F5B310C-A3F2-181A-5AB8-43ABF37C8F75">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="p_status" id="CFB8D361-30E9-C2F0-44BC-51B0AE9E5425">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="trx_id" id="EADDE0E2-5F5E-E61B-642C-EBA123E78854">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="orders_user_info_FK" id="0268C3E4-EBAC-DD2F-E5A9-068B573ED8B9">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="orders_PK" id="675F3767-8936-77BC-43DA-57B1EF1FC391">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

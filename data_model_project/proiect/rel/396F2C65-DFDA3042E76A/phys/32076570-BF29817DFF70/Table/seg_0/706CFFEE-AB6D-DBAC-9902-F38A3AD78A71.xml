@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="user_info" directorySegmentName="seg_0" id="706CFFEE-AB6D-DBAC-9902-F38A3AD78A71">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="user_id" id="05BBF12E-3118-B991-9D83-6727276B6E5E">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="first_name" id="1B17073B-43FA-38F6-5DFA-BC07BFDE0664">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="last_name" id="25CC9D1B-4716-4CC6-9E13-43D794D193F0">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="address1" id="4977E80D-F24B-8894-9C4F-E5097465A0F3">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="password" id="5B731C68-8E5C-A172-004F-62989FF9031B">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="address2" id="83905F23-1969-BE7B-0B82-6DA32AA7FE25">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mobile" id="B658874C-2BD4-7C57-3D03-FEF00D378C71">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="C91A65E2-E805-96F9-FB13-A5F79357FF8F">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="user_info_PK" id="398336AB-EB35-E8A1-D5CE-4F5CF597C758">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

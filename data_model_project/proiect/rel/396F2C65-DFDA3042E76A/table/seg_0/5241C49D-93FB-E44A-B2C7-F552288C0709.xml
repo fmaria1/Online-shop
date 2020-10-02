@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5241C49D-93FB-E44A-B2C7-F552288C0709" name="ing_id_FK">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ingredients_ing_id" id="73CDED8F-F35E-7D78-0C68-8F4375310BA4">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8F32452-5133-3D29-1345-FB3E11F113A8" referredColumn="5F19FFAB-E4D7-50BC-40CF-B2D5345F2CD3"/>
+</associations>
+</Column>
+<Column name="products_prod_id" id="B2849982-EF97-1EC6-FF18-2D3DFE15B42C">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2DB089D-78EA-E6B8-67F0-9941371A1A04" referredColumn="A3BB3484-8D01-0EE4-C920-C8719E7C7670"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82737A8C-4909-CAA4-14C6-65A6841A67D3" name="ing_id_FK_PK">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73CDED8F-F35E-7D78-0C68-8F4375310BA4"/>
+<colUsage columnID="B2849982-EF97-1EC6-FF18-2D3DFE15B42C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07612F96-92BC-2682-A0B3-F550D4917499" name="ing_id_FK_ingredients_FK">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<generatorID>07E96DB6-225B-FDD3-E972-4777E1486DD2</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73CDED8F-F35E-7D78-0C68-8F4375310BA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB9A1E3E-47B7-A435-1C1E-54B1693E8214" name="ing_id_FK_products_FK">
+<createdBy>Maria</createdBy>
+<createdTime>2019-12-03 22:53:57 UTC</createdTime>
+<generatorID>07E96DB6-225B-FDD3-E972-4777E1486DD2</generatorID>
+<ownerDesignName>proiect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2849982-EF97-1EC6-FF18-2D3DFE15B42C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

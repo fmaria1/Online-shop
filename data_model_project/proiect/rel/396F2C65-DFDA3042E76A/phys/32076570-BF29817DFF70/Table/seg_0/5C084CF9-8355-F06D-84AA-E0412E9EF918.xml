@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="products" directorySegmentName="seg_0" id="5C084CF9-8355-F06D-84AA-E0412E9EF918">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="expiration_date" id="14981B9C-10A5-D7C8-45D5-810B01B44759">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="describtion_desc_id" id="1DD0C5D6-4486-F78A-AD8F-7CC850AC05BC">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="prod_image" id="3B1C657C-2B63-1A83-FC72-83D353BC5DD0">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="prod_price" id="45E6E7E1-28EE-4EB6-3448-9A77CDF48489">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="prod_keywords" id="5B750060-E0C0-FA57-F920-3AB996ECF132">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="prod_title" id="84BBD870-6ABD-EC96-9E71-723060CC4202">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="prod_id" id="8AC56E0C-0AC6-D40E-CD14-40F4D95EA29C">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="stoc" id="95166A61-694B-ED9B-A2DD-27CB7C892137">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="categories_cat_id" id="99190131-5F22-1A57-EE1C-6E6011D50AB9">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="fabrication_date" id="FAE7F154-7D1A-8A99-2881-46CBAD5FE8A4">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="products__IDX" id="84FD9387-5897-6B9D-0949-7DB061FB1DE1">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="products_describtion_FK" id="3A8629E5-899C-90C4-A1DA-971A62B18874">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="products_categories_FK" id="A1BA35F9-6AC6-D9CC-1FF7-1589E5C3B60E">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="products_PK" id="2C7C5088-DCF1-C4EB-8D95-044F0B83244D">
+<createdBy>Maria</createdBy>
+<createdTime>2019-11-22 20:24:33 UTC</createdTime>
+<ownerDesignName>proiect</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
