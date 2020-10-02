@@ -1,0 +1,183 @@
+body {
+	display:block;
+	margin:0;
+	background:url("../imagini/123.jpg");
+}
+header{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	width:100%;
+}
+nav{
+	background:url("../imagini/123.jpg");
+	background-size: 1350px 800px;
+	color: gainsboro;
+	
+	font-size: 35px;
+	font-family:Trebuchet MS, sans-serif;
+}
+nav a{
+	text-decoration:none;
+	color:white;
+}
+
+
+ 
+#main{
+	background:url("../imagini/guilty-pleasure-hand-made-chocolate .jpg");
+	background-size: 1550px 850px;
+	background-repeat: repeat;
+	/*background:steelBlue;*/
+	width:100%;
+	height:120%;
+	text-align:center;
+	color:white;
+ }
+
+#news{
+	color:white;
+	 border:2px solid black;
+    padding: 15px;
+    text-align: center;
+
+}
+#news tr:hover {
+    background-color: lightgray;
+}
+#tabelsh {
+    padding: 15px;
+    border-collapse: collapse;
+    margin-left:auto; 
+    margin-right:auto;
+    text-align: center;
+	color:white;
+}
+
+#tabelsh td, th {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#tabelsh tr:hover {
+    background-color: gray;
+}
+ #flavour{
+	background:url("../imagini/123.jpg");
+	background-size: 1370px 500px;
+	background-repeat: repeat;
+	/*background:steelBlue;*/
+	width:100%;
+	text-align:center;
+	color:white;
+ }
+ 
+	
+ 
+ .text_box{
+	background: transparent;
+	float:left;
+	margin:15px;
+	padding: 10px;
+	color:white;
+	font-size:40px;
+	
+	width:60%;
+	font-family:Brush Script MT, Brush Script Std, cursive;
+	
+ }
+ /*#main form input[type=text]{
+	width:40%;
+	padding:10px;
+	box-sizing:border-box;
+	border:3px solid #0f4159;
+ }*/
+ 
+ section h1{
+	text-align:center;
+	color:white;
+	font-size:25px;
+ }
+ 
+ .varietati{
+	text-align:center;
+	width:80%;
+	margin:auto;
+ }
+ 
+ .varietati a:hover{
+	background-color:black;
+ }
+ 
+ #hr1{
+	width:37%;
+	color:white;
+	font-family:Trebuchet MS, sans-serif;
+ }
+ #hr2{
+	width:45%;
+	font-family:Trebuchet MS, sans-serif;
+ }
+ #varietati{
+	 color: white;
+ }
+ .box{
+	border:2px solid black;
+	padding: 5px;
+	overflow:auto;
+	width:60%;
+	margin:auto;
+	color:white;
+ }
+ .imag{
+	 float:left;
+ }
+ 
+ .buton{
+	 text-decoration:underline;
+	 color:blue;
+	 display:inline;
+	 border:none;
+	 background:transparent;
+	 font-family:Times New Roman;
+	 font-size:15px;
+ }
+ .buton:hover{
+	font-size:20px;
+	font-weight:bold;
+ }
+
+ .element{
+	 display:block;
+	margin:auto;
+	text-align:center;	
+ }
+ 
+ .message{
+	 display:inline-block;
+	text-align:center;
+	font-family:Times New Roman;
+	font-size:30px;
+	font-weight:bold;
+	color:white;
+	background: transparent;
+ }
+ 
+ .tabel{
+	text-align:center;
+	color:white;
+	background: transparent;
+ } 
+ .tabel th, td{
+	 border:2px solid black;
+	 padding: 10px;
+	 width:2%;
+ }
+ #ff
+ {
+	 background-color: #222;
+    color: white;
+    padding: 60px 0 30px;
+	 
+ }
